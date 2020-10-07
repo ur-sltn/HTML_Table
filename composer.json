@@ -27,7 +27,7 @@
         }
     ],
     "autoload": {
-        "psr-0": { "HTML" : "HTML/" }
+        "classmap": ["HTML/"]
     },
     "support": {
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_Table",
@@ -35,7 +35,7 @@
     },
     "require": {
         "pear/pear-core-minimal": "^1.10.0",
-        "pear/html_common": "^1.2.5"
+        "pear/html_common": "^v1.2.5"
     },
     "require-dev": {
         "pear/pear-core": "*"
